@@ -16,7 +16,8 @@ server.register({
     register: authPlugin,
     options: {
         session: {
-            expiresIn: 7 * 24 * 60 * 60
+            expiresIn: 7 * 24 * 60 * 60,
+            password: 'S3cRe7'
         },
         serverLabels: ['account'],
         allowedProviders: ['facebook', 'twitter']
