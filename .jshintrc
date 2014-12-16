@@ -1,0 +1,17 @@
+{
+    //globals
+    "node": true,
+
+    "forin": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "undef": true,
+    "quotmark": "single",
+    "immed": true,
+    "indent": 4,
+    "newcap": false,
+    "strict": true,
+    "unused": true
+}

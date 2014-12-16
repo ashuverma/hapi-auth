@@ -1,0 +1,47 @@
+{
+  "name": "hapi-auth",
+  "version": "0.0.1",
+  "description": "Hapi Authentication plugin with sessions",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "bell": "^2.0.0",
+    "boom": "^2.6.1",
+    "catbox-mongodb": "^1.1.0",
+    "catbox-redis": "^1.0.4",
+    "hapi": "^8.0.0",
+    "hapi-auth-cookie": "^2.0.0",
+    "hoek": "^2.10.0",
+    "uid-safe": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-nodemon": "^1.0.4",
+    "jshint-stylish": "^1.0.0",
+    "lab": "^5.1.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashuverma/hapi-auth.git"
+  },
+  "keywords": [
+    "auth",
+    "hapi-authentication",
+    "facebook",
+    "twitter",
+    "oauth"
+  ],
+  "author": "Ashu Verma",
+  "bugs": {
+    "url": "https://github.com/ashuverma/hapi-auth/issues"
+  },
+  "homepage": "https://github.com/ashuverma/hapi-auth"
+}
